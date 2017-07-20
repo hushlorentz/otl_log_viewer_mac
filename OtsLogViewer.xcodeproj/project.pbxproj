@@ -14,6 +14,7 @@
 		15C653541F215A550061A12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C653521F215A550061A12E /* Main.storyboard */; };
 		15C6535F1F215A550061A12E /* OtsLogViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6535E1F215A550061A12E /* OtsLogViewerTests.m */; };
 		15C6536A1F215A550061A12E /* OtsLogViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C653691F215A550061A12E /* OtsLogViewerUITests.m */; };
+		BF978EE215EBBD8F4CF834E9 /* libPods-OtsLogViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EC7BC1ACA9EEF804E22BDC /* libPods-OtsLogViewer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		15C653651F215A550061A12E /* OtsLogViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtsLogViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C653691F215A550061A12E /* OtsLogViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtsLogViewerUITests.m; sourceTree = "<group>"; };
 		15C6536B1F215A550061A12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D0AB9C3A884D8E498C3E68 /* Pods-OtsLogViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtsLogViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-OtsLogViewer/Pods-OtsLogViewer.release.xcconfig"; sourceTree = "<group>"; };
+		834B690BC0A213A1D8F814BF /* Pods-OtsLogViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtsLogViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtsLogViewer/Pods-OtsLogViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		89EC7BC1ACA9EEF804E22BDC /* libPods-OtsLogViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OtsLogViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF978EE215EBBD8F4CF834E9 /* libPods-OtsLogViewer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,8 @@
 				15C6535D1F215A550061A12E /* OtsLogViewerTests */,
 				15C653681F215A550061A12E /* OtsLogViewerUITests */,
 				15C653451F215A550061A12E /* Products */,
+				F7B5D70409F8C9135B9B92D9 /* Pods */,
+				4D07073C11EFB4B71970080D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +144,23 @@
 			path = OtsLogViewerUITests;
 			sourceTree = "<group>";
 		};
+		4D07073C11EFB4B71970080D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89EC7BC1ACA9EEF804E22BDC /* libPods-OtsLogViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7B5D70409F8C9135B9B92D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				834B690BC0A213A1D8F814BF /* Pods-OtsLogViewer.debug.xcconfig */,
+				57D0AB9C3A884D8E498C3E68 /* Pods-OtsLogViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15C6536E1F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewer" */;
 			buildPhases = (
+				753FDC6844D4E4487E352547 /* [CP] Check Pods Manifest.lock */,
 				15C653401F215A550061A12E /* Sources */,
 				15C653411F215A550061A12E /* Frameworks */,
 				15C653421F215A550061A12E /* Resources */,
+				B7DC58953627717632D2FC13 /* [CP] Embed Pods Frameworks */,
+				D8972288D821BC71DF99AA88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +290,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		753FDC6844D4E4487E352547 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DC58953627717632D2FC13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OtsLogViewer/Pods-OtsLogViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8972288D821BC71DF99AA88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OtsLogViewer/Pods-OtsLogViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15C653401F215A550061A12E /* Sources */ = {
@@ -409,6 +484,7 @@
 		};
 		15C6536F1F215A550061A12E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834B690BC0A213A1D8F814BF /* Pods-OtsLogViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -421,6 +497,7 @@
 		};
 		15C653701F215A550061A12E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D0AB9C3A884D8E498C3E68 /* Pods-OtsLogViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
