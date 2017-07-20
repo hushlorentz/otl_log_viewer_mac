@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C653491F215A550061A12E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C653481F215A550061A12E /* AppDelegate.m */; };
+		15C6534C1F215A550061A12E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6534B1F215A550061A12E /* main.m */; };
+		15C6534F1F215A550061A12E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6534E1F215A550061A12E /* ViewController.m */; };
+		15C653511F215A550061A12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C653501F215A550061A12E /* Assets.xcassets */; };
+		15C653541F215A550061A12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C653521F215A550061A12E /* Main.storyboard */; };
+		15C6535F1F215A550061A12E /* OtsLogViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6535E1F215A550061A12E /* OtsLogViewerTests.m */; };
+		15C6536A1F215A550061A12E /* OtsLogViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C653691F215A550061A12E /* OtsLogViewerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C6535B1F215A550061A12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C6533C1F215A550061A12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C653431F215A550061A12E;
+			remoteInfo = OtsLogViewer;
+		};
+		15C653661F215A550061A12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C6533C1F215A550061A12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C653431F215A550061A12E;
+			remoteInfo = OtsLogViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C653441F215A550061A12E /* OtsLogViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtsLogViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C653471F215A550061A12E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15C653481F215A550061A12E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15C6534B1F215A550061A12E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15C6534D1F215A550061A12E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15C6534E1F215A550061A12E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15C653501F215A550061A12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15C653531F215A550061A12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15C653551F215A550061A12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C6535A1F215A550061A12E /* OtsLogViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtsLogViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C6535E1F215A550061A12E /* OtsLogViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtsLogViewerTests.m; sourceTree = "<group>"; };
+		15C653601F215A550061A12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C653651F215A550061A12E /* OtsLogViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtsLogViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C653691F215A550061A12E /* OtsLogViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtsLogViewerUITests.m; sourceTree = "<group>"; };
+		15C6536B1F215A550061A12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C653411F215A550061A12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C653571F215A550061A12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C653621F215A550061A12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C6533B1F215A550061A12E = {
+			isa = PBXGroup;
+			children = (
+				15C653461F215A550061A12E /* OtsLogViewer */,
+				15C6535D1F215A550061A12E /* OtsLogViewerTests */,
+				15C653681F215A550061A12E /* OtsLogViewerUITests */,
+				15C653451F215A550061A12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15C653451F215A550061A12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C653441F215A550061A12E /* OtsLogViewer.app */,
+				15C6535A1F215A550061A12E /* OtsLogViewerTests.xctest */,
+				15C653651F215A550061A12E /* OtsLogViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C653461F215A550061A12E /* OtsLogViewer */ = {
+			isa = PBXGroup;
+			children = (
+				15C653471F215A550061A12E /* AppDelegate.h */,
+				15C653481F215A550061A12E /* AppDelegate.m */,
+				15C6534D1F215A550061A12E /* ViewController.h */,
+				15C6534E1F215A550061A12E /* ViewController.m */,
+				15C653501F215A550061A12E /* Assets.xcassets */,
+				15C653521F215A550061A12E /* Main.storyboard */,
+				15C653551F215A550061A12E /* Info.plist */,
+				15C6534A1F215A550061A12E /* Supporting Files */,
+			);
+			path = OtsLogViewer;
+			sourceTree = "<group>";
+		};
+		15C6534A1F215A550061A12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C6534B1F215A550061A12E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15C6535D1F215A550061A12E /* OtsLogViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				15C6535E1F215A550061A12E /* OtsLogViewerTests.m */,
+				15C653601F215A550061A12E /* Info.plist */,
+			);
+			path = OtsLogViewerTests;
+			sourceTree = "<group>";
+		};
+		15C653681F215A550061A12E /* OtsLogViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15C653691F215A550061A12E /* OtsLogViewerUITests.m */,
+				15C6536B1F215A550061A12E /* Info.plist */,
+			);
+			path = OtsLogViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C653431F215A550061A12E /* OtsLogViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C6536E1F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewer" */;
+			buildPhases = (
+				15C653401F215A550061A12E /* Sources */,
+				15C653411F215A550061A12E /* Frameworks */,
+				15C653421F215A550061A12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtsLogViewer;
+			productName = OtsLogViewer;
+			productReference = 15C653441F215A550061A12E /* OtsLogViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C653591F215A550061A12E /* OtsLogViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C653711F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewerTests" */;
+			buildPhases = (
+				15C653561F215A550061A12E /* Sources */,
+				15C653571F215A550061A12E /* Frameworks */,
+				15C653581F215A550061A12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C6535C1F215A550061A12E /* PBXTargetDependency */,
+			);
+			name = OtsLogViewerTests;
+			productName = OtsLogViewerTests;
+			productReference = 15C6535A1F215A550061A12E /* OtsLogViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15C653641F215A550061A12E /* OtsLogViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C653741F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewerUITests" */;
+			buildPhases = (
+				15C653611F215A550061A12E /* Sources */,
+				15C653621F215A550061A12E /* Frameworks */,
+				15C653631F215A550061A12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C653671F215A550061A12E /* PBXTargetDependency */,
+			);
+			name = OtsLogViewerUITests;
+			productName = OtsLogViewerUITests;
+			productReference = 15C653651F215A550061A12E /* OtsLogViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C6533C1F215A550061A12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rich Halliday";
+				TargetAttributes = {
+					15C653431F215A550061A12E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					15C653591F215A550061A12E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15C653431F215A550061A12E;
+					};
+					15C653641F215A550061A12E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15C653431F215A550061A12E;
+					};
+				};
+			};
+			buildConfigurationList = 15C6533F1F215A550061A12E /* Build configuration list for PBXProject "OtsLogViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C6533B1F215A550061A12E;
+			productRefGroup = 15C653451F215A550061A12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C653431F215A550061A12E /* OtsLogViewer */,
+				15C653591F215A550061A12E /* OtsLogViewerTests */,
+				15C653641F215A550061A12E /* OtsLogViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C653421F215A550061A12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C653511F215A550061A12E /* Assets.xcassets in Resources */,
+				15C653541F215A550061A12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C653581F215A550061A12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C653631F215A550061A12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C653401F215A550061A12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C6534F1F215A550061A12E /* ViewController.m in Sources */,
+				15C6534C1F215A550061A12E /* main.m in Sources */,
+				15C653491F215A550061A12E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C653561F215A550061A12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C6535F1F215A550061A12E /* OtsLogViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C653611F215A550061A12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C6536A1F215A550061A12E /* OtsLogViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C6535C1F215A550061A12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C653431F215A550061A12E /* OtsLogViewer */;
+			targetProxy = 15C6535B1F215A550061A12E /* PBXContainerItemProxy */;
+		};
+		15C653671F215A550061A12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C653431F215A550061A12E /* OtsLogViewer */;
+			targetProxy = 15C653661F215A550061A12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15C653521F215A550061A12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C653531F215A550061A12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15C6536C1F215A550061A12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15C6536D1F215A550061A12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15C6536F1F215A550061A12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OtsLogViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msft.OtsLogViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15C653701F215A550061A12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OtsLogViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msft.OtsLogViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15C653721F215A550061A12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OtsLogViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msft.OtsLogViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtsLogViewer.app/Contents/MacOS/OtsLogViewer";
+			};
+			name = Debug;
+		};
+		15C653731F215A550061A12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OtsLogViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msft.OtsLogViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtsLogViewer.app/Contents/MacOS/OtsLogViewer";
+			};
+			name = Release;
+		};
+		15C653751F215A550061A12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OtsLogViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msft.OtsLogViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OtsLogViewer;
+			};
+			name = Debug;
+		};
+		15C653761F215A550061A12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OtsLogViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msft.OtsLogViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OtsLogViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C6533F1F215A550061A12E /* Build configuration list for PBXProject "OtsLogViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C6536C1F215A550061A12E /* Debug */,
+				15C6536D1F215A550061A12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C6536E1F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C6536F1F215A550061A12E /* Debug */,
+				15C653701F215A550061A12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15C653711F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C653721F215A550061A12E /* Debug */,
+				15C653731F215A550061A12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15C653741F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C653751F215A550061A12E /* Debug */,
+				15C653761F215A550061A12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C6533C1F215A550061A12E /* Project object */;
+}
