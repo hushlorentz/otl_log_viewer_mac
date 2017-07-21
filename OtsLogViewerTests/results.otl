@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Log Generator="OtsLogging" Version="Gemini">
+<!--  Unknown="0" TestPass="1" TestFail="2" Comment="3" Warning="4" Error="5" BeginGroup="6" EndGroup="7" ReproStep="8" -->
+<!--  Default="0" Default="0" General="1" RunTimeError="2" CompileError="3" Assert="4" MemoryLeak="5" Crash="6" Hang="7" Timeout="8" AdditionalData="9" BuildVerificationError="10" -->
+<!--  Default="0" TokenExpansion="100" FileCopy="101" AppIdle="110" AppNotStart="111" AppDialog="112" AppAssert="113" BoundsChecker="114" -->
+<MID ID="AITS5" ComputerName="AITS5" OutOfDisk="0"/>
+<PID ID="2932" Path="C:\Users\xacsa1\Desktop\Xac\Xac.ClientConsole.exe" MID="AITS5"/>
+<LID ID="1" Name="Xac" Description="xPlatform Automation Client for Office" PID="2932" MID="AITS5"/>
+<OASysTask id="1592182418" exec="1"><System baseurl="http://oasysnet"/><Job id="236996420" name="AutoInfra Daily - Bridge_Mix-170720.0922-Debug - OS X 10.11.41 ENU - iOS 9"/><Run id="347023951" name="AutoInfra Test Suite - Bridge_Mix-170720.0922-Debug - OS X 10.11.41 ENU"/><Scenario id="373317" name="TS: InstallingKnownGoodBuilds.OfficialMacSucceeds"/></OASysTask>
+<E T="2017-07-20T17:56:41.4594805Z" N="3" C="Xac version: 2.0.0622.0505" I="1"/>
+<E T="2017-07-20T17:56:41.4750826Z" N="3" C="OS version: Microsoft Windows Server 2012 R2 Datacenter 6.2.9200.0" I="1"/>
+<E T="2017-07-20T17:56:41.4750826Z" N="3" C="IP address: 10.130.104.210" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="6" C="Current Processes" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="cmd:1532" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="cmd:2108" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="conhost:1852" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="conhost:2228" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="explorer:2844" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="SCNotification:1144" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="shutdown:1884" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="taskhostex:668" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="3" C="Xac.ClientConsole:2932" I="1"/>
+<E T="2017-07-20T17:56:41.5063248Z" N="7" C="" I="1"/>
+<E T="2017-07-20T17:56:41.5375753Z" N="3" C="Executing single test: TestSuite.Installer.InstallingKnownGoodBuilds.OfficialMacSucceeds" I="1"/>
+<E T="2017-07-20T17:56:41.7406996Z" N="3" C="ProcessModel: Default    DomainUsage: Single" I="1"/>
+<E T="2017-07-20T17:56:41.7406996Z" N="3" C="Execution Runtime: net-4.0" I="1"/>
+<E T="2017-07-20T17:56:42.5688553Z" N="3" C="Selected test(s): MS.Office.Apple.AutoInfra.TestSuite.TestSuite.Installer.InstallingKnownGoodBuilds.OfficialMacSucceeds" I="1"/>
+<E T="2017-07-20T17:56:45.0688253Z" N="3" C=".Looking up scenario result for scenario: SUT: Automation Installer - official Mac (based on Word Mac ABV)" I="1"/>
+<E T="2017-07-20T17:56:45.0688253Z" N="3" C="This job:" I="1"/>
+<E T="2017-07-20T17:56:45.0688253Z" N="3" C="    http://oasysnet/JobInfo.aspx?JobID=236996420" I="1"/>
+<E T="2017-07-20T17:56:49.3347272Z" N="3" C=".SUT Result:" I="1"/>
+<E T="2017-07-20T17:56:49.3347272Z" N="3" C="    http://oasysnet/Investigate.aspx?ResultID=1493243357" I="1"/>
+<E T="2017-07-20T17:56:49.3347272Z" N="3" C="        \\BB-CONT-09\LogFolder\236996420\347024302\1592183872\1\832491641" I="1"/>
+<E T="2017-07-20T17:56:49.7514848Z" N="3" C="F" I="1"/>
+<E T="2017-07-20T17:56:49.7668292Z" N="3" C="Tests run: 1, Errors: 1, Failures: 0, Inconclusive: 0, Time: 7.0261557 seconds" I="1"/>
+<E T="2017-07-20T17:56:49.7668292Z" N="3" C="  Not run: 0, Invalid: 0, Ignored: 0, Skipped: 0" I="1"/>
+<E T="2017-07-20T17:56:49.7668292Z" N="3" C="Errors and Failures:" I="1"/>
+<E T="2017-07-20T17:56:49.7668292Z" N="3" C="1) Test Error : MS.Office.Apple.AutoInfra.TestSuite.TestSuite.Installer.InstallingKnownGoodBuilds.OfficialMacSucceeds" I="1"/>
+<E T="2017-07-20T17:56:49.7668292Z" N="3" C="   Should.Core.Exceptions.TrueException : Assert.True() Failure" I="1"/>
+<E T="2017-07-20T17:56:49.7824529Z" N="3" C="   at MS.Office.Apple.AutoInfra.TestSuite.TestSuite.Installer.InstallingKnownGoodBuilds.OfficialMacSucceeds()" I="1"/>
+<E T="2017-07-20T17:56:55.7982359Z" N="3" C="Microsoft (R) XSLT Processor for System.Xml Version 1.51" I="1"/>
+<E T="2017-07-20T17:56:57.3563759Z" N="4" C="∩╗┐Should.Core.Exceptions.TrueException : Assert.True() Failureat MS.Office.Apple.AutoInfra.TestSuite.TestSuite.Installer.InstallingKnownGoodBuilds.OfficialMacSucceeds()" I="1"/>
+</Log>

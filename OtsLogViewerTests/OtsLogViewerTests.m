@@ -1,12 +1,11 @@
 //
-//  OtsLogViewerTests.m
-//  OtsLogViewerTests
-//
-//  Created by Rich Halliday on 7/20/17.
-//  Copyright © 2017 Rich Halliday. All rights reserved.
+//  Copyright 2017 Microsoft
 //
 
 #import <XCTest/XCTest.h>
+#import "LogEntry.h"
+#import "XMLConverter.h"
+#import "TBXML.h"
 
 @interface OtsLogViewerTests : XCTestCase
 
@@ -14,26 +13,30 @@
 
 @implementation OtsLogViewerTests
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+static NSString *oneEntryPath = @"/Volumes/Source/rich/OtsLogViewer/OtsLogViewerTests/one_entry.xml";
+static NSString *emptyFilePath = @"/Volumes/Source/rich/OtsLogViewer/OtsLogViewerTests/empty.xml";
+
+- (void)testOpeningAnEmptyFileProducesAnEmptyArrayOfLogEntries
+{
+
+    NSMutableArray *logEntries = [XMLConverter getEntriesFromXMLFileAtPath:emptyFilePath];
+    
+    XCTAssertEqual([logEntries count], 0);
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+- (void)testOpeningAFileWithOneEntryProducesAnArrayOfOneLogEntry
+{
+    NSMutableArray *logEntries = [XMLConverter getEntriesFromXMLFileAtPath:oneEntryPath];
+    
+    XCTAssertEqual([logEntries count], 1);
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testOpeningAFileWithOneEntryProducesAnArrayOfOneLogEntryWithCorrectInformation
+{
+    LogEntry *entry = [[LogEntry alloc] initWithTimestamp:@"2017-07-20T17:56:41.4594805Z" message:@"Hello, World!" andNotation:@"3"];
+    NSMutableArray *logEntries = [XMLConverter getEntriesFromXMLFileAtPath:oneEntryPath];
+    
+    XCTAssertEqualObjects(entry, logEntries[0]);
 }
 
 @end

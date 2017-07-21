@@ -10,12 +10,14 @@
 		0980A661FB43B4FB046204BFF7DDC93F /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D54E14BD5966343E5AE227985333C6 /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1993E5596923A34EA04D07453359CE90 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = FD67EDC65D06FA8D3E22CFB5A0C49315 /* TBXML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		35F3DD0BD834183A4EA761060C127ADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
-		519440D7E89E2EA5D54CC1606362AD01 /* Pods-OtsLogViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8898BE3D44DB2EBA47DEE675C1E496DA /* Pods-OtsLogViewer-dummy.m */; };
+		519440D7E89E2EA5D54CC1606362AD01 /* Pods-OtsLogViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725A96FCE2AE716F2DC8B57E7C115BD8 /* Pods-OtsLogViewer-dummy.m */; };
 		5A4DA1C871E5922942EDD17BB56BA03E /* TBXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E720BC6B5210DC002733D0B7B97CB1C6 /* TBXML-dummy.m */; };
 		725D5C5EE8FF7F8FFE032A27B86D3F6E /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = A85A68441934BE1A5AC11E7E0E290929 /* TBXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A12146AC16BE2D04C0505194AED6D3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
 		C742C44ABC5075A8547AAFAD1E7636C9 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E062EB307E813D80AA5ACDD7FC4A77D /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CF9520BAB73640AE295FA9C4320C826E /* TBXML+HTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E31AE902556BDE14E035693C643A19 /* TBXML+HTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D645B321A19BF4745B7DE038A1F43C16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		E051728170B911BF0859FD86523DAAE6 /* Pods-OtsLogViewerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EA2F315B943558BD8538F0EA3167CC /* Pods-OtsLogViewerTests-dummy.m */; };
 		E5432670EC0AB418318B4C615F4F7BEF /* TBXML+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FAFF1746F17CDFAE3912086CF47703 /* TBXML+Compression.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,32 +29,55 @@
 			remoteGlobalIDString = B3470F7FF9E872F1492FFF01C23F1FD0;
 			remoteInfo = TBXML;
 		};
+		5F884FBEDC0EF94F641EC3465B706455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3470F7FF9E872F1492FFF01C23F1FD0;
+			remoteInfo = TBXML;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13E3C41F6AF568C910F17D2AB452FE7D /* Pods-OtsLogViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OtsLogViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		068364351DF4ECE886C2C50202A78655 /* libTBXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTBXML.a; path = libTBXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		12577B134E3C253B3C7A5BF3B7631898 /* libPods-OtsLogViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OtsLogViewer.a"; path = "libPods-OtsLogViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B2C0138B5C9DC0DBA94D43DF95E1AF /* Pods-OtsLogViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OtsLogViewer-acknowledgements.plist"; sourceTree = "<group>"; };
 		24FAFF1746F17CDFAE3912086CF47703 /* TBXML+Compression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+Compression.h"; path = "TBXML-Headers/TBXML+Compression.h"; sourceTree = "<group>"; };
 		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		289C265C1BAF1A01836AB68156080961 /* Pods-OtsLogViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OtsLogViewer-acknowledgements.plist"; sourceTree = "<group>"; };
-		2ADE838A9C0156AAC9494218BB64AC4A /* libTBXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTBXML.a; path = libTBXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B0D2030AFBFEC14C32B473AE3E747F6 /* Pods-OtsLogViewer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OtsLogViewer-resources.sh"; sourceTree = "<group>"; };
 		2E062EB307E813D80AA5ACDD7FC4A77D /* TBXML+HTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+HTTP.m"; path = "TBXML-Code/TBXML+HTTP.m"; sourceTree = "<group>"; };
+		3299F64D3E6B03E07091012B4EE71F0F /* Pods-OtsLogViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OtsLogViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		439B8948AACC9535FDBA677CB7A287F3 /* Pods-OtsLogViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OtsLogViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		44B2AB7A79123338BE2A52F2493046F0 /* Pods-OtsLogViewerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OtsLogViewerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		45D54E14BD5966343E5AE227985333C6 /* TBXML+Compression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+Compression.m"; path = "TBXML-Code/TBXML+Compression.m"; sourceTree = "<group>"; };
-		83FCED7852AF01EFA94FFE17DD556889 /* Pods-OtsLogViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OtsLogViewer.release.xcconfig"; sourceTree = "<group>"; };
+		45EAD3A2F5339AF80659A69AD4F7FDF8 /* Pods-OtsLogViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OtsLogViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		4E47A05851880E75C01B284C053EB1F7 /* Pods-OtsLogViewerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OtsLogViewerTests-frameworks.sh"; sourceTree = "<group>"; };
+		69EA2F315B943558BD8538F0EA3167CC /* Pods-OtsLogViewerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OtsLogViewerTests-dummy.m"; sourceTree = "<group>"; };
+		725A96FCE2AE716F2DC8B57E7C115BD8 /* Pods-OtsLogViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OtsLogViewer-dummy.m"; sourceTree = "<group>"; };
+		7C1046A728EDFDE99B9F895FEC84D2E1 /* Pods-OtsLogViewerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OtsLogViewerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		85930C4C75281FC1E2605BA4AC478E5E /* TBXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBXML-prefix.pch"; sourceTree = "<group>"; };
-		862A3E67B2AFDABC68C60F098A575A2A /* Pods-OtsLogViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OtsLogViewer-frameworks.sh"; sourceTree = "<group>"; };
-		8898BE3D44DB2EBA47DEE675C1E496DA /* Pods-OtsLogViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OtsLogViewer-dummy.m"; sourceTree = "<group>"; };
+		8FBF37E5E8AAFA9A2EF0377593990AC5 /* Pods-OtsLogViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OtsLogViewer-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97A36EB2154695A29B5FABF65A6867CA /* Pods-OtsLogViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OtsLogViewer.release.xcconfig"; sourceTree = "<group>"; };
+		A3727C036268DD2B5142ADAE6E77AC08 /* libPods-OtsLogViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OtsLogViewerTests.a"; path = "libPods-OtsLogViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85A68441934BE1A5AC11E7E0E290929 /* TBXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBXML.h; path = "TBXML-Headers/TBXML.h"; sourceTree = "<group>"; };
+		B164849127B88102EB22CF770AB750A1 /* Pods-OtsLogViewerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OtsLogViewerTests-resources.sh"; sourceTree = "<group>"; };
 		BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBXML.xcconfig; sourceTree = "<group>"; };
+		D07C6655109FC6DC1B4FD8F2F7F32438 /* Pods-OtsLogViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OtsLogViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E720BC6B5210DC002733D0B7B97CB1C6 /* TBXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBXML-dummy.m"; sourceTree = "<group>"; };
-		F13FF51A31134EBAF0DAC7AE5B191897 /* Pods-OtsLogViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OtsLogViewer.debug.xcconfig"; sourceTree = "<group>"; };
-		F27EBC35FA51242467232C4918E0FE62 /* libPods-OtsLogViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OtsLogViewer.a"; path = "libPods-OtsLogViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E31AE902556BDE14E035693C643A19 /* TBXML+HTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+HTTP.h"; path = "TBXML-Headers/TBXML+HTTP.h"; sourceTree = "<group>"; };
 		FD67EDC65D06FA8D3E22CFB5A0C49315 /* TBXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = "TBXML-Code/TBXML.m"; sourceTree = "<group>"; };
+		FEA92FF004F9DE2825784237EB53B2C9 /* Pods-OtsLogViewer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OtsLogViewer-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		67134B803DB7E9CED281E443E86DD5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A12146AC16BE2D04C0505194AED6D3F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7652DD8AFA7DD14BF1696A2CCE84ED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,6 +105,15 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
+		24D56F7F4CE825907E50DA32E69CCA50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				881690586AAC141611D87EDA8A96FEFF /* Pods-OtsLogViewer */,
+				BD14970DE27DF41290D1C869ACA0CA50 /* Pods-OtsLogViewerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		364EBE82E6EAFE1A15E3DA736F94F900 /* TBXML */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,44 +137,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		496F210FA241712864F57C23CC8AD8D9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B6C46075B1A44FF1E8B5E0DFD9343D28 /* Pods-OtsLogViewer */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
 				BCDB7CBC6396332C2BDBA0C784AE6FFB /* Pods */,
-				97E6CE49E63420B3AD5AADD73AA97932 /* Products */,
-				496F210FA241712864F57C23CC8AD8D9 /* Targets Support Files */,
+				D681D4AEB28848817049D5DD1DE524B3 /* Products */,
+				24D56F7F4CE825907E50DA32E69CCA50 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		97E6CE49E63420B3AD5AADD73AA97932 /* Products */ = {
+		881690586AAC141611D87EDA8A96FEFF /* Pods-OtsLogViewer */ = {
 			isa = PBXGroup;
 			children = (
-				F27EBC35FA51242467232C4918E0FE62 /* libPods-OtsLogViewer.a */,
-				2ADE838A9C0156AAC9494218BB64AC4A /* libTBXML.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B6C46075B1A44FF1E8B5E0DFD9343D28 /* Pods-OtsLogViewer */ = {
-			isa = PBXGroup;
-			children = (
-				13E3C41F6AF568C910F17D2AB452FE7D /* Pods-OtsLogViewer-acknowledgements.markdown */,
-				289C265C1BAF1A01836AB68156080961 /* Pods-OtsLogViewer-acknowledgements.plist */,
-				8898BE3D44DB2EBA47DEE675C1E496DA /* Pods-OtsLogViewer-dummy.m */,
-				862A3E67B2AFDABC68C60F098A575A2A /* Pods-OtsLogViewer-frameworks.sh */,
-				2B0D2030AFBFEC14C32B473AE3E747F6 /* Pods-OtsLogViewer-resources.sh */,
-				F13FF51A31134EBAF0DAC7AE5B191897 /* Pods-OtsLogViewer.debug.xcconfig */,
-				83FCED7852AF01EFA94FFE17DD556889 /* Pods-OtsLogViewer.release.xcconfig */,
+				3299F64D3E6B03E07091012B4EE71F0F /* Pods-OtsLogViewer-acknowledgements.markdown */,
+				20B2C0138B5C9DC0DBA94D43DF95E1AF /* Pods-OtsLogViewer-acknowledgements.plist */,
+				725A96FCE2AE716F2DC8B57E7C115BD8 /* Pods-OtsLogViewer-dummy.m */,
+				8FBF37E5E8AAFA9A2EF0377593990AC5 /* Pods-OtsLogViewer-frameworks.sh */,
+				FEA92FF004F9DE2825784237EB53B2C9 /* Pods-OtsLogViewer-resources.sh */,
+				45EAD3A2F5339AF80659A69AD4F7FDF8 /* Pods-OtsLogViewer.debug.xcconfig */,
+				97A36EB2154695A29B5FABF65A6867CA /* Pods-OtsLogViewer.release.xcconfig */,
 			);
 			name = "Pods-OtsLogViewer";
 			path = "Target Support Files/Pods-OtsLogViewer";
@@ -154,6 +171,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BD14970DE27DF41290D1C869ACA0CA50 /* Pods-OtsLogViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				44B2AB7A79123338BE2A52F2493046F0 /* Pods-OtsLogViewerTests-acknowledgements.markdown */,
+				7C1046A728EDFDE99B9F895FEC84D2E1 /* Pods-OtsLogViewerTests-acknowledgements.plist */,
+				69EA2F315B943558BD8538F0EA3167CC /* Pods-OtsLogViewerTests-dummy.m */,
+				4E47A05851880E75C01B284C053EB1F7 /* Pods-OtsLogViewerTests-frameworks.sh */,
+				B164849127B88102EB22CF770AB750A1 /* Pods-OtsLogViewerTests-resources.sh */,
+				D07C6655109FC6DC1B4FD8F2F7F32438 /* Pods-OtsLogViewerTests.debug.xcconfig */,
+				439B8948AACC9535FDBA677CB7A287F3 /* Pods-OtsLogViewerTests.release.xcconfig */,
+			);
+			name = "Pods-OtsLogViewerTests";
+			path = "Target Support Files/Pods-OtsLogViewerTests";
+			sourceTree = "<group>";
+		};
 		C3E8146F7432E53E9CD503B28478B428 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +195,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TBXML";
+			sourceTree = "<group>";
+		};
+		D681D4AEB28848817049D5DD1DE524B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12577B134E3C253B3C7A5BF3B7631898 /* libPods-OtsLogViewer.a */,
+				A3727C036268DD2B5142ADAE6E77AC08 /* libPods-OtsLogViewerTests.a */,
+				068364351DF4ECE886C2C50202A78655 /* libTBXML.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +237,24 @@
 			);
 			name = "Pods-OtsLogViewer";
 			productName = "Pods-OtsLogViewer";
-			productReference = F27EBC35FA51242467232C4918E0FE62 /* libPods-OtsLogViewer.a */;
+			productReference = 12577B134E3C253B3C7A5BF3B7631898 /* libPods-OtsLogViewer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A4B1484A6D74084AC5D245E82C4C4BFD /* Pods-OtsLogViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917B638D37D178F1B02B3EC996D90DA1 /* Build configuration list for PBXNativeTarget "Pods-OtsLogViewerTests" */;
+			buildPhases = (
+				DC21DEA97888E3C62F0EE36C9BD17ADA /* Sources */,
+				67134B803DB7E9CED281E443E86DD5D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69254A33C60FF882A7042B23427A4BA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-OtsLogViewerTests";
+			productName = "Pods-OtsLogViewerTests";
+			productReference = A3727C036268DD2B5142ADAE6E77AC08 /* libPods-OtsLogViewerTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B3470F7FF9E872F1492FFF01C23F1FD0 /* TBXML */ = {
@@ -212,7 +271,7 @@
 			);
 			name = TBXML;
 			productName = TBXML;
-			productReference = 2ADE838A9C0156AAC9494218BB64AC4A /* libTBXML.a */;
+			productReference = 068364351DF4ECE886C2C50202A78655 /* libTBXML.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -232,11 +291,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 97E6CE49E63420B3AD5AADD73AA97932 /* Products */;
+			productRefGroup = D681D4AEB28848817049D5DD1DE524B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				363ABCC4CAEFF5300C68A6D1D454EFB2 /* Pods-OtsLogViewer */,
+				A4B1484A6D74084AC5D245E82C4C4BFD /* Pods-OtsLogViewerTests */,
 				B3470F7FF9E872F1492FFF01C23F1FD0 /* TBXML */,
 			);
 		};
@@ -262,9 +322,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC21DEA97888E3C62F0EE36C9BD17ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E051728170B911BF0859FD86523DAAE6 /* Pods-OtsLogViewerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		69254A33C60FF882A7042B23427A4BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBXML;
+			target = B3470F7FF9E872F1492FFF01C23F1FD0 /* TBXML */;
+			targetProxy = 5F884FBEDC0EF94F641EC3465B706455 /* PBXContainerItemProxy */;
+		};
 		906C40D2321968D16B18082731C2CA7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TBXML;
@@ -346,6 +420,31 @@
 			};
 			name = Debug;
 		};
+		66CA45E3230F0517EACC3C689C2A9CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07C6655109FC6DC1B4FD8F2F7F32438 /* Pods-OtsLogViewerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		7FF9F95BDB2B2929BF967F1D0CB3BAA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */;
@@ -370,9 +469,34 @@
 			};
 			name = Debug;
 		};
+		C162F49EBCEEC7CED19F34E5B4AE2795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439B8948AACC9535FDBA677CB7A287F3 /* Pods-OtsLogViewerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		DA0DC78F96C218B22F379E4DDDD0D2CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F13FF51A31134EBAF0DAC7AE5B191897 /* Pods-OtsLogViewer.debug.xcconfig */;
+			baseConfigurationReference = 45EAD3A2F5339AF80659A69AD4F7FDF8 /* Pods-OtsLogViewer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -441,7 +565,7 @@
 		};
 		FE234389953C42825EFC935FD802D1DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83FCED7852AF01EFA94FFE17DD556889 /* Pods-OtsLogViewer.release.xcconfig */;
+			baseConfigurationReference = 97A36EB2154695A29B5FABF65A6867CA /* Pods-OtsLogViewer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -481,6 +605,15 @@
 			buildConfigurations = (
 				337AD37B27D7FFADF01DD8D7FE35B27B /* Debug */,
 				FC4738C3605827B2CD972C349A860865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917B638D37D178F1B02B3EC996D90DA1 /* Build configuration list for PBXNativeTarget "Pods-OtsLogViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CA45E3230F0517EACC3C689C2A9CF4 /* Debug */,
+				C162F49EBCEEC7CED19F34E5B4AE2795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

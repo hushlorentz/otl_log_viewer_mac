@@ -1,16 +1,16 @@
 //
-//  AppDelegate.h
+//  FileIO.h
 //  OtsLogViewer
 //
 //  Created by Rich Halliday on 7/20/17.
 //  Copyright © 2017 Rich Halliday. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 #import "TBXML.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface FileIO : NSObject
 
++ (TBXML *)parseXMLFile:(NSString *)path;
 
 @end
-

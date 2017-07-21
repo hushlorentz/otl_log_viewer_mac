@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-OtsLogViewerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TBXML.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -18,6 +23,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>363ABCC4CAEFF5300C68A6D1D454EFB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4B1484A6D74084AC5D245E82C4C4BFD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

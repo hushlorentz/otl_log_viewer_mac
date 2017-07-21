@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151DF69E1F216A1A00A769DC /* empty.xml in Resources */ = {isa = PBXBuildFile; fileRef = 151DF69D1F216A1A00A769DC /* empty.xml */; };
+		151DF6A21F21719600A769DC /* FileIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 151DF6A11F21719600A769DC /* FileIO.m */; };
+		151DF6A41F21725100A769DC /* one_entry.xml in Resources */ = {isa = PBXBuildFile; fileRef = 151DF6A31F21725100A769DC /* one_entry.xml */; };
+		151DF6A81F21746C00A769DC /* XMLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 151DF6A71F21746C00A769DC /* XMLConverter.m */; };
+		151DF6AC1F217A4C00A769DC /* LogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 151DF6AB1F217A4C00A769DC /* LogEntry.m */; };
 		15C653491F215A550061A12E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C653481F215A550061A12E /* AppDelegate.m */; };
 		15C6534C1F215A550061A12E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6534B1F215A550061A12E /* main.m */; };
 		15C6534F1F215A550061A12E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6534E1F215A550061A12E /* ViewController.m */; };
@@ -14,6 +19,7 @@
 		15C653541F215A550061A12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C653521F215A550061A12E /* Main.storyboard */; };
 		15C6535F1F215A550061A12E /* OtsLogViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6535E1F215A550061A12E /* OtsLogViewerTests.m */; };
 		15C6536A1F215A550061A12E /* OtsLogViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C653691F215A550061A12E /* OtsLogViewerUITests.m */; };
+		583D5E9E63815F22550A2890 /* libPods-OtsLogViewerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7E17095AF4719EB7E0DCF4 /* libPods-OtsLogViewerTests.a */; };
 		BF978EE215EBBD8F4CF834E9 /* libPods-OtsLogViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EC7BC1ACA9EEF804E22BDC /* libPods-OtsLogViewer.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		151DF69D1F216A1A00A769DC /* empty.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = empty.xml; sourceTree = "<group>"; };
+		151DF6A01F21719600A769DC /* FileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIO.h; sourceTree = "<group>"; };
+		151DF6A11F21719600A769DC /* FileIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileIO.m; sourceTree = "<group>"; };
+		151DF6A31F21725100A769DC /* one_entry.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = one_entry.xml; sourceTree = "<group>"; };
+		151DF6A61F21746C00A769DC /* XMLConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLConverter.h; sourceTree = "<group>"; };
+		151DF6A71F21746C00A769DC /* XMLConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLConverter.m; sourceTree = "<group>"; };
+		151DF6AA1F217A4C00A769DC /* LogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEntry.h; sourceTree = "<group>"; };
+		151DF6AB1F217A4C00A769DC /* LogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEntry.m; sourceTree = "<group>"; };
 		15C653441F215A550061A12E /* OtsLogViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtsLogViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C653471F215A550061A12E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15C653481F215A550061A12E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,9 +64,12 @@
 		15C653651F215A550061A12E /* OtsLogViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtsLogViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C653691F215A550061A12E /* OtsLogViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtsLogViewerUITests.m; sourceTree = "<group>"; };
 		15C6536B1F215A550061A12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C9842C6006F7F5F6D005AE /* Pods-OtsLogViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtsLogViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtsLogViewerTests/Pods-OtsLogViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF084F1446D491F8755CC90 /* Pods-OtsLogViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtsLogViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OtsLogViewerTests/Pods-OtsLogViewerTests.release.xcconfig"; sourceTree = "<group>"; };
 		57D0AB9C3A884D8E498C3E68 /* Pods-OtsLogViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtsLogViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-OtsLogViewer/Pods-OtsLogViewer.release.xcconfig"; sourceTree = "<group>"; };
 		834B690BC0A213A1D8F814BF /* Pods-OtsLogViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtsLogViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtsLogViewer/Pods-OtsLogViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		89EC7BC1ACA9EEF804E22BDC /* libPods-OtsLogViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OtsLogViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7E17095AF4719EB7E0DCF4 /* libPods-OtsLogViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OtsLogViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583D5E9E63815F22550A2890 /* libPods-OtsLogViewerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151DF69B1F21688000A769DC /* TestResources */ = {
+			isa = PBXGroup;
+			children = (
+				151DF69D1F216A1A00A769DC /* empty.xml */,
+				151DF6A31F21725100A769DC /* one_entry.xml */,
+			);
+			name = TestResources;
+			sourceTree = "<group>";
+		};
+		151DF69F1F21717800A769DC /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				151DF6A01F21719600A769DC /* FileIO.h */,
+				151DF6A11F21719600A769DC /* FileIO.m */,
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		151DF6A51F21742E00A769DC /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				151DF6A61F21746C00A769DC /* XMLConverter.h */,
+				151DF6A71F21746C00A769DC /* XMLConverter.m */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		151DF6A91F217A4100A769DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				151DF6AA1F217A4C00A769DC /* LogEntry.h */,
+				151DF6AB1F217A4C00A769DC /* LogEntry.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		15C6533B1F215A550061A12E = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +160,9 @@
 		15C653461F215A550061A12E /* OtsLogViewer */ = {
 			isa = PBXGroup;
 			children = (
+				151DF6A91F217A4100A769DC /* Models */,
+				151DF6A51F21742E00A769DC /* XML */,
+				151DF69F1F21717800A769DC /* IO */,
 				15C653471F215A550061A12E /* AppDelegate.h */,
 				15C653481F215A550061A12E /* AppDelegate.m */,
 				15C6534D1F215A550061A12E /* ViewController.h */,
@@ -129,6 +186,7 @@
 		15C6535D1F215A550061A12E /* OtsLogViewerTests */ = {
 			isa = PBXGroup;
 			children = (
+				151DF69B1F21688000A769DC /* TestResources */,
 				15C6535E1F215A550061A12E /* OtsLogViewerTests.m */,
 				15C653601F215A550061A12E /* Info.plist */,
 			);
@@ -148,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				89EC7BC1ACA9EEF804E22BDC /* libPods-OtsLogViewer.a */,
+				BB7E17095AF4719EB7E0DCF4 /* libPods-OtsLogViewerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +216,8 @@
 			children = (
 				834B690BC0A213A1D8F814BF /* Pods-OtsLogViewer.debug.xcconfig */,
 				57D0AB9C3A884D8E498C3E68 /* Pods-OtsLogViewer.release.xcconfig */,
+				30C9842C6006F7F5F6D005AE /* Pods-OtsLogViewerTests.debug.xcconfig */,
+				3CF084F1446D491F8755CC90 /* Pods-OtsLogViewerTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -188,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15C653711F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewerTests" */;
 			buildPhases = (
+				36605044452911C937F6F027 /* [CP] Check Pods Manifest.lock */,
 				15C653561F215A550061A12E /* Sources */,
 				15C653571F215A550061A12E /* Frameworks */,
 				15C653581F215A550061A12E /* Resources */,
+				968A8A8D7652CDD80BF1FBB2 /* [CP] Embed Pods Frameworks */,
+				81BC9B128813D44EB518CD9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +343,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151DF69E1F216A1A00A769DC /* empty.xml in Resources */,
+				151DF6A41F21725100A769DC /* one_entry.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +358,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		36605044452911C937F6F027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		753FDC6844D4E4487E352547 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +386,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81BC9B128813D44EB518CD9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OtsLogViewerTests/Pods-OtsLogViewerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968A8A8D7652CDD80BF1FBB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OtsLogViewerTests/Pods-OtsLogViewerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B7DC58953627717632D2FC13 /* [CP] Embed Pods Frameworks */ = {
@@ -345,8 +456,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C6534F1F215A550061A12E /* ViewController.m in Sources */,
+				151DF6A81F21746C00A769DC /* XMLConverter.m in Sources */,
 				15C6534C1F215A550061A12E /* main.m in Sources */,
+				151DF6AC1F217A4C00A769DC /* LogEntry.m in Sources */,
 				15C653491F215A550061A12E /* AppDelegate.m in Sources */,
+				151DF6A21F21719600A769DC /* FileIO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +624,7 @@
 		};
 		15C653721F215A550061A12E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C9842C6006F7F5F6D005AE /* Pods-OtsLogViewerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -523,6 +638,7 @@
 		};
 		15C653731F215A550061A12E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF084F1446D491F8755CC90 /* Pods-OtsLogViewerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -577,6 +693,7 @@
 				15C653701F215A550061A12E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15C653711F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +702,7 @@
 				15C653731F215A550061A12E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15C653741F215A550061A12E /* Build configuration list for PBXNativeTarget "OtsLogViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +711,7 @@
 				15C653761F215A550061A12E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
