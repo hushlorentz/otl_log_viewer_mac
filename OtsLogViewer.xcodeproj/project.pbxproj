@@ -12,6 +12,9 @@
 		151DF6A41F21725100A769DC /* one_entry.xml in Resources */ = {isa = PBXBuildFile; fileRef = 151DF6A31F21725100A769DC /* one_entry.xml */; };
 		151DF6A81F21746C00A769DC /* XMLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 151DF6A71F21746C00A769DC /* XMLConverter.m */; };
 		151DF6AC1F217A4C00A769DC /* LogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 151DF6AB1F217A4C00A769DC /* LogEntry.m */; };
+		15C532661F54C71A003F199A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C532651F54C71A003F199A /* MainTableViewController.m */; };
+		15C532681F54DE13003F199A /* three_entries.xml in Resources */ = {isa = PBXBuildFile; fileRef = 15C532671F54DE13003F199A /* three_entries.xml */; };
+		15C532691F54E14F003F199A /* three_entries.xml in Resources */ = {isa = PBXBuildFile; fileRef = 15C532671F54DE13003F199A /* three_entries.xml */; };
 		15C653491F215A550061A12E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C653481F215A550061A12E /* AppDelegate.m */; };
 		15C6534C1F215A550061A12E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6534B1F215A550061A12E /* main.m */; };
 		15C6534F1F215A550061A12E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6534E1F215A550061A12E /* ViewController.m */; };
@@ -49,6 +52,9 @@
 		151DF6A71F21746C00A769DC /* XMLConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLConverter.m; sourceTree = "<group>"; };
 		151DF6AA1F217A4C00A769DC /* LogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEntry.h; sourceTree = "<group>"; };
 		151DF6AB1F217A4C00A769DC /* LogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEntry.m; sourceTree = "<group>"; };
+		15C532641F54C71A003F199A /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		15C532651F54C71A003F199A /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		15C532671F54DE13003F199A /* three_entries.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = three_entries.xml; sourceTree = "<group>"; };
 		15C653441F215A550061A12E /* OtsLogViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtsLogViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C653471F215A550061A12E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15C653481F215A550061A12E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 		151DF69B1F21688000A769DC /* TestResources */ = {
 			isa = PBXGroup;
 			children = (
+				15C532671F54DE13003F199A /* three_entries.xml */,
 				151DF69D1F216A1A00A769DC /* empty.xml */,
 				151DF6A31F21725100A769DC /* one_entry.xml */,
 			);
@@ -135,6 +142,15 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		15C532631F54C6EA003F199A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				15C532641F54C71A003F199A /* MainTableViewController.h */,
+				15C532651F54C71A003F199A /* MainTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		15C6533B1F215A550061A12E = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +176,7 @@
 		15C653461F215A550061A12E /* OtsLogViewer */ = {
 			isa = PBXGroup;
 			children = (
+				15C532631F54C6EA003F199A /* Controllers */,
 				151DF6A91F217A4100A769DC /* Models */,
 				151DF6A51F21742E00A769DC /* XML */,
 				151DF69F1F21717800A769DC /* IO */,
@@ -334,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C532691F54E14F003F199A /* three_entries.xml in Resources */,
 				15C653511F215A550061A12E /* Assets.xcassets in Resources */,
 				15C653541F215A550061A12E /* Main.storyboard in Resources */,
 			);
@@ -343,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C532681F54DE13003F199A /* three_entries.xml in Resources */,
 				151DF69E1F216A1A00A769DC /* empty.xml in Resources */,
 				151DF6A41F21725100A769DC /* one_entry.xml in Resources */,
 			);
@@ -457,6 +476,7 @@
 			files = (
 				15C6534F1F215A550061A12E /* ViewController.m in Sources */,
 				151DF6A81F21746C00A769DC /* XMLConverter.m in Sources */,
+				15C532661F54C71A003F199A /* MainTableViewController.m in Sources */,
 				15C6534C1F215A550061A12E /* main.m in Sources */,
 				151DF6AC1F217A4C00A769DC /* LogEntry.m in Sources */,
 				15C653491F215A550061A12E /* AppDelegate.m in Sources */,

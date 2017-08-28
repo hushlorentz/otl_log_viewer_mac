@@ -14,6 +14,7 @@
 @implementation OtsLogViewerTests
 
 static NSString *oneEntryFile = @"one_entry";
+static NSString *threeEntriesFile = @"three_entries";
 static NSString *emptyFile = @"empty";
 static NSString *getTestPath(NSString *fileName)
 {
@@ -42,6 +43,26 @@ static NSString *getTestPath(NSString *fileName)
     NSMutableArray *logEntries = [XMLConverter getEntriesFromXMLFileAtPath:getTestPath(oneEntryFile)];
     
     XCTAssertEqualObjects(entry, logEntries[0]);
+}
+
+- (void)testOpeningAFileWithThreeEntriesProducesAnArrayOfThreeLogEntries
+{
+    NSMutableArray *logEntries = [XMLConverter getEntriesFromXMLFileAtPath:getTestPath(threeEntriesFile)];
+    
+    XCTAssertEqual([logEntries count], 3);
+
+}
+
+- (void)testOpeningAFileWithThreeEntriesProducesAnArrayOfThreeLogEntriesWithIncreasingNumbers
+{
+    NSMutableArray *logEntries = [XMLConverter getEntriesFromXMLFileAtPath:getTestPath(threeEntriesFile)];
+    
+    NSNumber *previousNumber = @-1;
+    
+    for (LogEntry *entry in logEntries) {
+        XCTAssertLessThan([previousNumber intValue], [entry.number intValue]);
+        previousNumber = entry.number;
+    }
 }
 
 @end

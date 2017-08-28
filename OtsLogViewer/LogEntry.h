@@ -8,11 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LogEntry : NSObject
+@interface LogEntry : NSObject <NSCopying>
 
-@property (nonatomic) NSString *timeStamp;
 @property (nonatomic) NSString *message;
 @property (nonatomic) NSString *notation;
+@property (nonatomic) NSNumber *number;
+@property (nonatomic) NSString *source;
+@property (nonatomic) NSString *timeStamp;
 
 - (id)initWithTimestamp:(NSString *)timeStampString message:(NSString *)message andNotation:(NSString *)notation;
 

@@ -29,7 +29,7 @@
                                                            message:message
                                                        andNotation:notation]];
              
-            entry = [TBXML nextSiblingNamed:@"E" searchFromElement:root];
+            entry = [TBXML nextSiblingNamed:@"E" searchFromElement:entry];
         }
     }
     
