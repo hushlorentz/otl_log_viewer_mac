@@ -29,7 +29,7 @@
 - (void)testLoadOTLFile {
     
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    NSString *path = [bundle pathForResource:@"three_entries" ofType:@"xml"];
+    NSString *path = [bundle pathForResource:@"results" ofType:@"otl"];
     self.logEntries = [XMLConverter getEntriesFromXMLFileAtPath:path];
 }
 

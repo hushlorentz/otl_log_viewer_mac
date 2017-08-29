@@ -65,4 +65,11 @@ static NSString *getTestPath(NSString *fileName)
     }
 }
 
+- (void)testGettingTheTimeStampFromAnEntryIsSummarizedAsPSTFromGMT
+{
+    LogEntry *entry = [[LogEntry alloc] initWithTimestamp:@"2017-07-20T17:56:41.4594805Z" message:@"Hello, Test!" andNotation:@"3"];
+
+    XCTAssertEqualObjects([entry timeStamp], @"10:56:41 AM");
+}
+
 @end
